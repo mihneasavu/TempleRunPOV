@@ -8,11 +8,11 @@ public class spawn : MonoBehaviour {
 	public GameObject leftWall;
 	public GameObject rightWall;
 	private GameObject[] count;
-	public static float thrust = -60;
 	private Quaternion left = Quaternion.Euler (0, 180, 90);
 	private Quaternion right = Quaternion.Euler (0, 0, 90);
 	// Use this for initialization
 	void Start () {
+		
 		Instantiate (rightWall, new Vector3 ((float)1.41,(float)-0.2005, (float)3.86), right );
 		Instantiate(floor, new Vector3 ((float)0,(float) -0.5, (float)3.86), Quaternion.identity);
 
