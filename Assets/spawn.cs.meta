@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bf7475480d6f932479d420b26af970db
-timeCreated: 1489215969
+timeCreated: 1489217072
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
@@ -8,8 +8,7 @@ MonoImporter:
   - floor: {instanceID: 0}
   - leftWall: {instanceID: 0}
   - rightWall: {instanceID: 0}
-  - death_menu: {fileID: 1393142498799004, guid: ee0ed785813ca8e40ba4e5c698bbbe6c,
-      type: 2}
+  - stick: {fileID: 1751157017811996, guid: 6c1e5b2765366044e896d0541b503898, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

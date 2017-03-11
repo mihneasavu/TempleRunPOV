@@ -6,6 +6,7 @@ public class move : MonoBehaviour {
 	public Rigidbody rb;
 	public Vector3 temp;
 	public float thrust;
+
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
@@ -16,8 +17,10 @@ public class move : MonoBehaviour {
 	void Update () {
 		
 		temp = transform.position;
-		if (temp.z <= -5)
+		if (temp.z <= -16 || temp.x <=-200|| temp.x >=200 || temp.z >=200 ||temp.x <=-200 || temp.x >=200) {
 			Destroy (this.gameObject);
+			spawn.nou = true;
+		}
 		//rb.AddForce(0,0,thrust,ForceMode.Force);
 
 
